@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "PublicExtensionForJanDan",
+    "description": "Public Extension For jandan.net, Replace moyu.im with sinaimg.cn.",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*.jandan.net/*",
+        "*://*.moyu.im/*",
+        "*://*.sinaimg.cn/*"
+    ],
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "declarativeNetRequestFeedback"
+    ]
+}
