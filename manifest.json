@@ -9,7 +9,8 @@
     "host_permissions": [
         "*://*.jandan.net/*",
         "*://*.moyu.im/*",
-        "*://*.sinaimg.cn/*"
+        "*://*.sinaimg.cn/*",
+        "*://*.toto.im/*"
     ],
     "permissions": [
         "declarativeNetRequest",
